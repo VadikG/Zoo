@@ -23,9 +23,17 @@ function updateGallery() {
 }
 
 prevButton.addEventListener('click', () => {
-  if (index > 1) {  // Змінюємо умову для уникнення першого елемента
+  if (index > 0) {
     index--;
     updateGallery();
+  } else {
+    index = 0;
+    galleryList.style.transition = 'none';
+    galleryList.style.transform = `translateX(0)`;
+    setTimeout(() => {
+      galleryList.style.transition = 'transform 0.5s ease';
+      updateGallery();
+    }, 50);
   }
 });
 
@@ -37,5 +45,7 @@ nextButton.addEventListener('click', () => {
 });
 
 updateGallery();
+
+
 
 
