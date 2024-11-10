@@ -92,9 +92,8 @@ header .container {
 }
 .btn-container {
   display: flex;
-  flex-grow: 1;
+
   align-items: center;
-  gap: 24px;
 }
 .toggle-container {
   position: relative;
@@ -183,9 +182,10 @@ body.dark-mode .burger-menu_svg use {
 .gallery {
   position: relative;
   width: 100%;
-  height: 200px;
   overflow: hidden;
   margin: auto;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .gallery-list-wrapper {
