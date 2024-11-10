@@ -92,7 +92,7 @@ header .container {
 }
 .btn-container {
   display: flex;
-
+  gap: 24px;
   align-items: center;
 }
 .toggle-container {
@@ -184,8 +184,6 @@ body.dark-mode .burger-menu_svg use {
   width: 100%;
   overflow: hidden;
   margin: auto;
-  padding-top: 100px;
-  padding-bottom: 100px;
 }
 
 .gallery-list-wrapper {
