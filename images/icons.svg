@@ -99,6 +99,23 @@
                                                             <path
                                                                 d="M3.843 0c-2.121 0-3.843 1.721-3.843 3.843s1.721 3.879 3.843 3.879c2.121 0 3.843-1.757 3.843-3.879-0.001-2.121-1.723-3.843-3.843-3.843v0z">
                                                             </path>
+                                                            <svg aria-hidden="true"
+                                                                style="position: absolute; width: 0; height: 0; overflow: hidden;"
+                                                                version="1.1" xmlns="http://www.w3.org/2000/svg"
+                                                                xmlns:xlink="http://www.w3.org/1999/xlink">
+                                                                <defs>
+                                                                    <symbol id="icon-line" viewBox="0 0 784 32">
+                                                                        <path fill="#bdbdbd"
+                                                                            style="fill: var(--color1, #bdbdbd)"
+                                                                            opacity="0.57" d="M0 9.6h784v16h-784v-16z">
+                                                                        </path>
+                                                                        <path fill="#333"
+                                                                            style="fill: var(--color2, #333)"
+                                                                            d="M0 0h256v32h-256v-32z"></path>
+                                                                    </symbol>
+                                                                </defs>
+                                                            </svg>
+
                                                         </symbol>
                                                     </defs>
                                                 </svg>
