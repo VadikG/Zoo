@@ -92,6 +92,7 @@ header .container {
 }
 .btn-container {
   display: flex;
+  flex-grow: 1;
   align-items: center;
   gap: 24px;
 }
