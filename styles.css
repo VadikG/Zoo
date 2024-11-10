@@ -166,8 +166,12 @@ body.dark-mode .burger-menu_svg use {
   background-color: transparent;
   outline: none;
 }
+
 .menu-btn_svg {
   fill: #333;
+}
+.mobile-menu_close-btn:focus .menu-btn_svg {
+  fill: transparent;
 }
 
 .mobile-menu_nav {
