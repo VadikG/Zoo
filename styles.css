@@ -93,7 +93,7 @@ header .container {
 .btn-container {
   display: flex;
   align-items: center;
-  gap: 75px;
+  gap: 24px;
 }
 .toggle-container {
   position: relative;
