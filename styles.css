@@ -137,8 +137,6 @@ body.dark-mode .burger-menu_svg use {
   fill: #fefefe; /* Змінюємо колір SVG на білий */
 }
 .burger-menu {
-  width: 40px;
-  height: 35px;
   background-color: transparent;
 }
 
