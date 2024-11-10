@@ -308,11 +308,11 @@ body.dark-mode .burger-menu_svg use {
 }
 
 .prev {
-  left: 5px;
+  left: 0;
 }
 
 .next {
-  right: 5px;
+  right: 0;
 }
 
 .gallery-prev_svg,
