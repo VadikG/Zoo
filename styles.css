@@ -85,7 +85,6 @@ button {
 /*Header*/
 header .container {
   display: flex;
-  justify-content: space-between;
   align-items: center;
 }
 .header-logo {
@@ -95,6 +94,7 @@ header .container {
   display: flex;
   gap: 24px;
   align-items: center;
+  margin-left: auto;
 }
 .toggle-container {
   position: relative;
@@ -612,3 +612,5 @@ body.dark-mode .burger-menu_svg use {
   text-transform: uppercase;
   margin: 0 auto;
 }
+
+/**Testimonials**/
