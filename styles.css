@@ -518,16 +518,15 @@ body.dark-mode .burger-menu_svg use {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 11px;
   width: 70%;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 25px;
 }
 .pets-wrapper-namber_text {
   color: var(--Gray-1, #333);
   font-size: 24px;
   font-weight: 900;
+  margin-bottom: 11px;
 }
 .namber-text_span {
   color: var(--Gray-3, #828282);
@@ -536,16 +535,75 @@ body.dark-mode .burger-menu_svg use {
 }
 .pets-wrapper-number_svg {
   height: 10px;
+  margin-bottom: 25px;
 }
 .pets-wrapper_btn {
   display: block;
-  width: 245px;
+  width: 100%;
   height: 55px;
   border-radius: 3px;
   background: var(
     --base_gradient,
     linear-gradient(107deg, #4bd8b5 -14.32%, #49d6df 100.68%)
   );
+  color: #fff;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 900;
+  text-transform: uppercase;
+  margin: 0 auto;
+}
+
+/**Pay**/
+.pay {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #f2f2f2;
+}
+.container {
+}
+.pay-title {
+  color: var(--Gray-1, #333);
+  text-align: center;
+  font-size: 36px;
+  font-weight: 900;
+  margin-bottom: 30px;
+}
+.pay-list {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 100px;
+  margin-bottom: 40px;
+}
+
+.pay-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 18px;
+  width: 70%;
+  height: 245px;
+  border: 2px solid #4ad7ca;
+  border-radius: 50%;
+  padding: 0 69px 0 69px;
+}
+.pay-item_svg {
+  fill: #4ad7ca;
+}
+.pay-item_text {
+  color: var(--Gray-2, #4f4f4f);
+  text-align: center;
+  font-size: 20px;
+  font-weight: 900;
+}
+.pay-btn {
+  display: block;
+  width: 70%;
+  height: 55px;
+  border-radius: 3px;
+  background-color: #4ad7ca;
   color: #fff;
   text-align: center;
   font-size: 18px;
