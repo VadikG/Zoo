@@ -584,7 +584,7 @@ body.dark-mode .burger-menu_svg use {
   align-items: center;
   justify-content: center;
   gap: 18px;
-  width: 70%;
+  width: 245px;
   height: 245px;
   border: 2px solid #4ad7ca;
   border-radius: 50%;
@@ -614,3 +614,42 @@ body.dark-mode .burger-menu_svg use {
 }
 
 /**Testimonials**/
+.testimonials {
+}
+.container {
+}
+.testimonials-list {
+}
+.testimonials-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 50px 14px 112px 14px;
+  border-radius: 5px;
+  background: #fefefe;
+
+  /* 1 */
+  box-shadow: 2px 4px 15px 0px rgba(6, 12, 70, 0.15);
+}
+.testimonials-item_img {
+  border-radius: 50%;
+  margin-bottom: 47px;
+}
+.testimonials-item_info {
+  display: flex;
+  flex-direction: column;
+  gap: 19px;
+  align-items: center;
+  justify-content: center;
+}
+.testimonials-item_name {
+  color: var(--Gray-1, #333);
+  text-align: center;
+  font-weight: 900;
+}
+.testimonials-item_text {
+  color: var(--Gray-2, #4f4f4f);
+  font-size: 14px;
+}
