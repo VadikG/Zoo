@@ -17,6 +17,7 @@
 
     <!--CSS-->
     <link rel="stylesheet" href="./styles.css" />
+
 </head>
 
 <body>
@@ -401,20 +402,101 @@
     <!--Testimonials-->
     <section class="testimonials">
         <div class="container">
+            <h2 class="testimonials-title">Testimonials</h2>
             <ul class="testimonials-list">
+                <li class="testimonials-item active">
+                    <img class="testimonials-item_img" src="./images/testimonials/marta.jpg" width="68" height="68">
+                    <div class="testimonials-item_info">
+                        <h3 class="testimonials-item_name">Marta Melnuk</h3>
+                        <p class="testimonials-item_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi
+                            porro placeat fugiat minima sint, possimus dignissimos odio sit. Voluptatibus, soluta.</p>
+                    </div>
+                </li>
+
+                <li class="testimonials-item ">
+                    <img class="testimonials-item_img" src="./images/testimonials/nastya.jpg" width="68" height="68">
+                    <div class="testimonials-item_info">
+                        <h3 class="testimonials-item_name">Nastya Boiko</h3>
+                        <p class="testimonials-item_text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Laborum deserunt, voluptate molestiae vero fugiat ducimus.</p>
+                    </div>
+                </li>
+
+                <li class="testimonials-item">
+                    <img class="testimonials-item_img" src="./images/testimonials/vlad.jpg" width="68" height="68">
+                    <div class="testimonials-item_info">
+                        <h3 class="testimonials-item_name">Vlad Kim</h3>
+                        <p class="testimonials-item_text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo
+                            inventore nostrum, magnam doloribus doloremque perferendis perspiciatis assumenda. Mollitia!
+                        </p>
+                    </div>
+                </li>
+
                 <li class="testimonials-item">
                     <img class="testimonials-item_img" src="./images/testimonials/marta.jpg" width="68" height="68">
                     <div class="testimonials-item_info">
                         <h3 class="testimonials-item_name">Marta Melnuk</h3>
-                        <p class="testimonials-item_text">As a voice for wildlife, we are devastated by the impact of
-                            the
-                            2020 Australian bushfires on precious species and their
-                            habitat.</p>
+                        <p class="testimonials-item_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi
+                            porro placeat fugiat minima sint, possimus dignissimos odio sit. Voluptatibus, soluta.</p>
+                    </div>
+                </li>
+
+                <li class="testimonials-item ">
+                    <img class="testimonials-item_img" src="./images/testimonials/nastya.jpg" width="68" height="68">
+                    <div class="testimonials-item_info">
+                        <h3 class="testimonials-item_name">Nastya Boiko</h3>
+                        <p class="testimonials-item_text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Laborum deserunt, voluptate molestiae vero fugiat ducimus.</p>
+                    </div>
+                </li>
+
+                <li class="testimonials-item">
+                    <img class="testimonials-item_img" src="./images/testimonials/vlad.jpg" width="68" height="68">
+                    <div class="testimonials-item_info">
+                        <h3 class="testimonials-item_name">Vlad Kim</h3>
+                        <p class="testimonials-item_text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo
+                            inventore nostrum, magnam doloribus doloremque perferendis perspiciatis assumenda. Mollitia!
+                        </p>
+                    </div>
+                </li>
+                <li class="testimonials-item ">
+                    <img class="testimonials-item_img" src="./images/testimonials/marta.jpg" width="68" height="68">
+                    <div class="testimonials-item_info">
+                        <h3 class="testimonials-item_name">Marta Melnuk</h3>
+                        <p class="testimonials-item_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi
+                            porro placeat fugiat minima sint, possimus dignissimos odio sit. Voluptatibus, soluta.</p>
+                    </div>
+                </li>
+
+                <li class="testimonials-item ">
+                    <img class="testimonials-item_img" src="./images/testimonials/nastya.jpg" width="68" height="68">
+                    <div class="testimonials-item_info">
+                        <h3 class="testimonials-item_name">Nastya Boiko</h3>
+                        <p class="testimonials-item_text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Laborum deserunt, voluptate molestiae vero fugiat ducimus.</p>
                     </div>
                 </li>
             </ul>
+            <div class="testimonials-wrapper_number">
+                <p class="testimonials-wrapper-namber_text" id="current-number">02/<span class="namber-text_span"
+                        id="total-number">08</span></p>
+                <svg class="testimonials-wrapper-number_svg" id="line-indicator">
+                    <use href="./images/icons.svg#icon-line-testimonials"></use>
+                </svg>
+                <button class="testimonials-wrapper_btn">
+                    Leave feedback
+                </button>
+            </div>
+            <button class="testimonials-prev"> <svg class="testimonials-prev_svg" width="40" height="40">
+                    <use href="./images/icons.svg#icon-back-btn"></use>
+                </svg> </button> <button class="testimonials-next"> <svg class="testimonials-next_svg" width="40"
+                    height="40">
+                    <use href="./images/icons.svg#icon-next-btn"></use>
+                </svg> </button>
         </div>
     </section>
+
+    <script src="./JS/testimonials.js"></script>
     <script src="./JS/mobile-menu.js"></script>
     <script src="./JS/galary.js"></script>
     <script src="./JS/toggle.js"></script>
