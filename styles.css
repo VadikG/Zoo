@@ -139,6 +139,7 @@ body.dark-mode .burger-menu_svg use {
 }
 .burger-menu_btn {
   background-color: transparent;
+  padding: 0;
 }
 
 .mobile-menu {
